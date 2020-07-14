@@ -1,0 +1,25 @@
+1-获取评论分页数据接口：
+    接口地址：'./comment/comGet.php';
+    请求方式：get
+    请求参数： 
+        page: 页码
+        pageSize: 每页数据条数 
+    返回数据格式：
+        json 
+
+
+2-获取有效评论接口：
+    接口地址：'./comment/comTotal.php';
+    请求方式：get/post 
+    请求参数： 
+        无
+    返回数据格式：
+        json 
+    
+3-批准评论接口：
+    接口地址：'./comment/comApproved.php';
+    请求方式：get
+    请求参数： 
+        id
+    返回数据格式：
+        无
